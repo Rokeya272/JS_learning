@@ -24,3 +24,22 @@ for(let s of square ){
     
     
 }
+
+//for of with object
+
+const moviereviews = {
+    arrival : 9.5,
+    alien   : 9,
+    amelie  : 8,
+    'In Bruges' : 9,
+    amadeus : 10,
+    'kill bill': 8
+}
+
+for(let x of Object.keys(moviereviews)){
+    console.log(x,moviereviews[x]);
+}
+
+for(let x of Object.values(moviereviews)){
+    console.log(x);
+}
