@@ -43,3 +43,8 @@ for(let x of Object.keys(moviereviews)){
 for(let x of Object.values(moviereviews)){
     console.log(x);
 }
+
+//for in
+for(let x in moviereviews){
+    console.log(x,moviereviews[x]);
+}
